@@ -1,0 +1,1 @@
+D:\AlarmApp\NCKH\server\models\best_model_fold_1.keras
