@@ -1,0 +1,47 @@
+name: alarm_app
+description: "Smart Alarm (frontend)"
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.17.0
+  flutter_alarm_clock:
+    git:
+      url: https://github.com/afzalali15/flutter_alarm_clock.git
+  flutter_local_notifications: ^17.2.1
+  timezone: ^0.9.2
+
+  shared_preferences: ^2.2.2
+  cupertino_icons: ^1.0.8
+
+  audioplayers: ^6.5.1
+  path_provider: ^2.0.15
+  http: ^0.13.6
+  device_info_plus: ^11.1.0
+  uuid: ^4.5.1
+  image_picker: ^0.8.7+5
+  path: ^1.8.3
+  file_selector: ^1.0.4
+  permission_handler: ^11.3.1
+
+dependency_overrides:
+  flutter_local_notifications: ^17.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/audio/
